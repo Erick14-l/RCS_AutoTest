@@ -10,7 +10,7 @@ import os
 from datetime import datetime
 
 class TCPClient:
-    def __init__(self, host='192.168.5.142', port=22001, reconnect_interval=5):
+    def __init__(self, host='192.168.2.24', port=22001, reconnect_interval=5):
         self.host = host
         self.port = port
         self.reconnect_interval = reconnect_interval
@@ -601,7 +601,7 @@ class TCPClient:
 
 def main():
     # 创建TCP客户端实例
-    client = TCPClient(host='192.168.5.142', port=22001)
+    client = TCPClient(host='192.168.2.24', port=22001)
     
     try:
         # 开始连接
