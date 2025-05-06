@@ -38,7 +38,7 @@
 
 ```ini
 [Connection]
-host = 192.168.8.81        # 目标主机IP
+host = 192.168.2.24        # 目标主机IP
 port = 22001               # 目标主机端口
 reconnect_interval = 5     # 重连间隔（秒）
 
